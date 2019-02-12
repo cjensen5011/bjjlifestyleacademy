@@ -11,7 +11,9 @@ const Banner = props => (
       </header>
       <div className="content">
         <p>
-          <img className="image" src={pic01} alt="" />
+          {/* <img className="image" src={pic01} alt="" /> */}
+          <Header headerImage={this.props.data.headerImage} />
+          {this.props.childred()}
         </p>
       </div>
 
@@ -30,3 +32,12 @@ const Banner = props => (
 )
 
 export default Banner
+export const pageQuery = graphql`
+  query HeaderImageQuery {
+    headerImage: imageSharp(id: { regex: "/header/" }) {
+      sizes(maxWidth: 1240) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+  }
+`
