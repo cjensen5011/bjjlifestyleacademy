@@ -12,7 +12,10 @@ const Landing = props => (
   <Layout>
     <Helmet>
       <title>Our Plans - BJJ Lifestyle Academy</title>
-      <meta name="description" content="Landing Page" />
+      <meta
+        name="description"
+        content="Find a BJJ Lifestyle Academy plan that fits you."
+      />
     </Helmet>
 
     <PlansLanding />

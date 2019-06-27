@@ -18,8 +18,16 @@ class HomeIndex extends React.Component {
         <Helmet
           title="Home - BJJ Lifestyle Academy"
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            {
+              name: 'description',
+              content:
+                'The Brazilian Jiu-Jitsu Lifestyle Academy. Home of the St. Louis and Metro East area premier Brazilian Jiu-Jitsu school.',
+            },
+            {
+              name: 'keywords',
+              content:
+                'bjj, lifestyle, academy, brazilian, jiu-jitsu, jiu, jitsu, st.louis, belleville, south county, il, mo, training, wrestling, rolling, gi, no-gi, submission, choke',
+            },
           ]}
         />
 

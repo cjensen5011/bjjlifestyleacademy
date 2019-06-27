@@ -13,7 +13,10 @@ const Generic = props => (
   <Layout>
     <Helmet>
       <title>About Us - BJJ Lifestyle Academy</title>
-      <meta name="description" content="Generic Page" />
+      <meta
+        name="description"
+        content="About Brazilian Jiu-Jitsu Lifestyle Academy"
+      />
     </Helmet>
 
     <div id="main" className="alt">
