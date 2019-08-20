@@ -7,6 +7,8 @@ import SchedulesLanding from '../components/SchedulesLanding'
 import pic08 from '../assets/images/belleville-front.png'
 import pic09 from '../assets/images/stl-front.png'
 import pic10 from '../assets/images/pic10.jpg'
+import ilSchedule from '../assets/images/belleville-schedule-Sept-2019.png'
+import moSchedule from '../assets/images/south-county-schedule-Sept-2019.png'
 
 const Landing = props => (
   <Layout>
@@ -39,7 +41,7 @@ const Landing = props => (
               <header className="major">
                 <h3>Belleville School Schedule</h3>
               </header>
-              <p>Coming Soon...</p>
+              <img src={ilSchedule} alt="Belleville, IL 2019 Schedule" />
               <ul className="actions">
                 <li>
                   <Link to="/generic" className="button">
@@ -59,7 +61,7 @@ const Landing = props => (
               <header className="major">
                 <h3>St. Louis School Schedule</h3>
               </header>
-              <p>Coming Soon...</p>
+              <img src={moSchedule} alt="St. Louis, MO 2019 Schedule" />
               <ul className="actions">
                 <li>
                   <Link to="/generic" className="button">
