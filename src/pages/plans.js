@@ -60,7 +60,7 @@ const Landing = props => (
               </p>
               <ul className="actions">
                 <li>
-                  <Link to="/contact" className="button">
+                  <Link to="#contact" className="button">
                     Sign Up
                   </Link>
                 </li>
