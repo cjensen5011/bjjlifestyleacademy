@@ -28,7 +28,10 @@ const Landing = props => (
           <header className="major">
             <h2>Class Schedules</h2>
           </header>
-          <p>View both the school scheduels below.</p>
+          <p>
+            BJJ Lifestyle Academy has two locations that both have different
+            schedules to help you train when it is easiest for you.
+          </p>
         </div>
       </section>
       <section id="two" className="spotlights">
@@ -36,21 +39,17 @@ const Landing = props => (
           {/* <Link to="/generic" className="image">
             <img src={bellevilleFront} alt="" />
           </Link> */}
-          <img
-            className="image"
-            src={bellevilleFront}
-            alt="Belleville, IL School Front"
-          />
+          <div className="image">
+            <img src={bellevilleFront} alt="Belleville, IL School Front" />
+          </div>
           <div className="content">
             <div className="inner">
               <header className="major">
                 <h3>Belleville School Schedule</h3>
               </header>
-              <img
-                className="image"
-                src={ilSchedule}
-                alt="Belleville, IL 2019 Schedule"
-              />
+              <div className="image">
+                <img src={ilSchedule} alt="Belleville, IL 2019 Schedule" />
+              </div>
               <ul className="actions">
                 {/* <li>
                   <Link to="/generic" className="button">
