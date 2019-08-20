@@ -51,18 +51,16 @@ const Landing = props => (
           <div className="content">
             <div className="inner">
               <header className="major">
-                <h3>Plan 1</h3>
+                <h3>Personalized Plan</h3>
               </header>
               <p>
-                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-                magna sed nunc rhoncus condimentum sem. In efficitur ligula tate
-                urna. Maecenas massa sed magna lacinia magna pellentesque lorem
-                ipsum dolor. Nullam et orci eu lorem consequat tincidunt.
-                Vivamus et sagittis tempus.
+                We don't believe that only one plan will fit everyone so we keep
+                an open mind to working with you to suit your needs. Give us a
+                call or drop us an email so we can get you rolling ASAP.
               </p>
               <ul className="actions">
                 <li>
-                  <Link to="/generic" className="button">
+                  <Link to="/contact" className="button">
                     Sign Up
                   </Link>
                 </li>
@@ -70,7 +68,7 @@ const Landing = props => (
             </div>
           </div>
         </section>
-        <section>
+        {/* <section>
           <Link to="/generic" className="image">
             <img src={pic09} alt="" />
           </Link>
@@ -95,8 +93,8 @@ const Landing = props => (
               </ul>
             </div>
           </div>
-        </section>
-        <section>
+        </section> */}
+        {/* <section>
           <Link to="/generic" className="image">
             <img src={pic10} alt="" />
           </Link>
@@ -121,7 +119,7 @@ const Landing = props => (
               </ul>
             </div>
           </div>
-        </section>
+        </section> */}
       </section>
     </div>
   </Layout>
