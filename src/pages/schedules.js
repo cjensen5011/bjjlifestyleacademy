@@ -4,8 +4,8 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import SchedulesLanding from '../components/SchedulesLanding'
 
-import pic08 from '../assets/images/belleville-front.png'
-import pic09 from '../assets/images/stl-front.png'
+import bellevilleFront from '../assets/images/belleville-front.png'
+import stlFront from '../assets/images/stl-front.png'
 import pic10 from '../assets/images/pic10.jpg'
 import ilSchedule from '../assets/images/belleville-schedule-Sept-2019.png'
 import moSchedule from '../assets/images/south-county-schedule-Sept-2019.png'
@@ -33,41 +33,53 @@ const Landing = props => (
       </section>
       <section id="two" className="spotlights">
         <section>
-          <Link to="/generic" className="image">
-            <img src={pic08} alt="" />
-          </Link>
+          {/* <Link to="/generic" className="image">
+            <img src={bellevilleFront} alt="" />
+          </Link> */}
+          <img
+            className="image"
+            src={bellevilleFront}
+            alt="Belleville, IL School Front"
+          />
           <div className="content">
             <div className="inner">
               <header className="major">
                 <h3>Belleville School Schedule</h3>
               </header>
-              <img src={ilSchedule} alt="Belleville, IL 2019 Schedule" />
+              <img
+                className="image"
+                src={ilSchedule}
+                alt="Belleville, IL 2019 Schedule"
+              />
               <ul className="actions">
-                <li>
+                {/* <li>
                   <Link to="/generic" className="button">
                     Learn more
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
         </section>
         <section>
-          <Link to="/generic" className="image">
-            <img src={pic09} alt="" />
-          </Link>
+          <img className="image" src={stlFront} alt="" />
+
           <div className="content">
             <div className="inner">
               <header className="major">
                 <h3>St. Louis School Schedule</h3>
               </header>
-              <img src={moSchedule} alt="St. Louis, MO 2019 Schedule" />
+              <img
+                className="image"
+                src={moSchedule}
+                alt="St. Louis, MO 2019 Schedule"
+              />
               <ul className="actions">
-                <li>
+                {/* <li>
                   <Link to="/generic" className="button">
                     Learn more
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
