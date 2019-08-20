@@ -68,11 +68,9 @@ const Landing = props => (
               <header className="major">
                 <h3>St. Louis School Schedule</h3>
               </header>
-              <img
-                className="image"
-                src={moSchedule}
-                alt="St. Louis, MO 2019 Schedule"
-              />
+              <div className="image">
+                <img src={moSchedule} alt="St. Louis, MO 2019 Schedule" />
+              </div>
               <ul className="actions">
                 {/* <li>
                   <Link to="/generic" className="button">
